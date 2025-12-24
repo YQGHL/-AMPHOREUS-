@@ -1,0 +1,70 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake build directories
+cmake-build-*/
+build/
+Debug/
+Release/
+x64/
+*.dir/
+
+# IDE files
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CLion files
+cmake-build-debug/
+cmake-build-release/
+
+# Project specific
+exp/
+ws/
+*.log
+cl_output.txt
+compile_output.txt
+sim_compile.txt
+sim_errors.txt
+test_errors.txt
+
+# Temporary files
+*.tmp
+*.temp
+
+# System files
+.DS_Store
+Thumbs.db
